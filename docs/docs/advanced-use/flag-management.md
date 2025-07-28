@@ -32,7 +32,7 @@ You can set this at both the Project and Environment level.
 ## Flag Archiving
 
 You can also archive Flags within Flagsmith. Archived flags will continue to be sent to your SDKs when you get the flags
-for your Environment, but by default they are hidden from the main list of flags.
+for your Environment, but by default, they are hidden from the main list of flags.
 
 You can set a Flag as Archived from the Flag settings tab.
 
@@ -59,16 +59,16 @@ flags to always be lower case, or camel case, or whatever your preference, you c
 
 ## Flag Owners
 
-You can specify members of your team as owners of individual Flags. This helps in larger teams when you need to identify
+You can specify team members as owners of individual Flags. This helps in larger teams when you need to identify
 who is responsible for a particular flag.
 
 ## Flag Defaults
 
-By default, when you create a feature with a value and enabled state it acts as a default for your other Environments.
+By default, when you create a feature with a value and an enabled state, it acts as a default for your other Environments.
 In the Project Settings page, you have the option of enabling the setting 'Prevent flag defaults' to prevent this
-behaviour. When this setting is enabled the user is not able to provide defaults when creating the feature. The feature
+behaviour. When this setting is enabled, the user is not able to provide defaults when creating the feature. The feature
 will be created with an empty value and will be turned off in all environments. Users are then required to modify the
-state / value of the feature in each environment individually.
+state/value of the feature in each environment individually.
 
 ## Comparing Flags
 
@@ -80,4 +80,4 @@ Use the "Compare" menu item to get an overview of how flag values differ between
 
 ### Flag Comparison
 
-You can also view a the values of a single Flag against all the Environments within the Project:
+You can also view the values of a single Flag against all the Environments within the Project:
